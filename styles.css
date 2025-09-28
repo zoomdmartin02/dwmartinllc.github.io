@@ -32,9 +32,12 @@ p {
 
 .about-me {
   display: flex;
-  align-items: flex-start;
-  gap: 20px; /* optional for spacing */
+  align-items: center; /* ensures vertical alignment closer */
+  gap: 20px; /* space between image and paragraph */
 }
+
 .headshot {
-  /* Optional styling for the image, such as size or border */
+  /* optional styles for the image size */
+  width: 150px;
+  height: auto;
 }
