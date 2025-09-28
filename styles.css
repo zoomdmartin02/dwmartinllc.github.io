@@ -30,4 +30,11 @@ p {
   flex-wrap: wrap;
 }
 
-.headshot
+.about-me {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* optional for spacing */
+}
+.headshot {
+  /* Optional styling for the image, such as size or border */
+}
