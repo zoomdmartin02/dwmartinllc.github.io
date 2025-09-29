@@ -18,7 +18,7 @@ h1 {
 
 p {
   max-width: 700px;
-  margin: 0 auto 1px;
+  margin-left: 5px;
   font-size: 1.2em;
 }
 
@@ -28,11 +28,11 @@ p {
   gap: 2px; /* or 0 */
 }
 .about-me p {
-  margin-left: 5px; /* remove default margin */
+  margin-left: 10px; /* remove default margin */
 }
 .headshot {
   display: block;
-  margin: 0;
+  margin: 5px ;
 }
 
 li {
