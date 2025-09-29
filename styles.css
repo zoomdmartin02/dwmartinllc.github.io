@@ -28,7 +28,7 @@ p {
   gap: 2px; /* or 0 */
 }
 .about-me p {
-  margin: 0; /* remove default margin */
+  margin-left: -10px; /* remove default margin */
 }
 .headshot {
   display: block;
