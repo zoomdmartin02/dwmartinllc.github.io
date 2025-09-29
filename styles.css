@@ -22,19 +22,17 @@ p {
   font-size: 1.2em;
 }
 
-/* For about me section: image beside text */
 .about-me {
   display: flex;
   align-items: flex-start;
-  gap: 1px;
-  
+  gap: 2px; /* or 0 */
 }
-
-
+.about-me p {
+  margin: 0; /* remove default margin */
+}
 .headshot {
-  /* optional styles for the image size */
-  width: 200px;
-  height: auto;
+  display: block;
+  margin: 0;
 }
 
 li {
